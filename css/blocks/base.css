@@ -1,0 +1,45 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.section-button-wrapper {
+    text-align: center;
+}
+
+.section-new {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-blog {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.section-subscribe {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 992px) {
+    .section-new{
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .section-blog {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .section-subscribe {
+        padding-bottom: 60px;
+    }
+}
